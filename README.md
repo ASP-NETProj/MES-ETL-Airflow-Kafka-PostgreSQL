@@ -1,6 +1,6 @@
 # MES ETL — Airflow + Kafka → PostgreSQL
 
-**GitHub README + scripts**
+
 
 This repository contains a minimal, practical setup to collect logs from multiple PC testers, publish them to **Apache Kafka**, and run scheduled **Apache Airflow** ETL tasks that read Kafka messages and write them into **PostgreSQL** (server). Suitable for MES (Manufacturing Execution System) pass/fail test logs.
 
